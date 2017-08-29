@@ -6,6 +6,7 @@ This only provides the cri-o daemon process, and does not come with associated c
 ### pull and install
 
 `atomic pull --storage ostree jerzhang/cri-o`
+
 `atomic install --system --system-package=no jerzhang/cri-o`
 
 ### test functionality
@@ -33,6 +34,9 @@ Pulling an image and creating a container:
 Cleaning up:
 
 `./crioctl ctr stop --id $CONTAINER_ID`
+
 `./crioctl ctr remove --id $CONTAINER_ID`
+
 `./crioctl pod stop --id $POD_ID`
+
 `./crioctl pod remove --id $POD_ID`
