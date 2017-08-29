@@ -8,6 +8,6 @@ LABEL Name="hello-world" \
 COPY run.sh greet.sh /usr/bin/
 COPY manifest.json service.template config.json.template tmpfiles.template /exports/
 
-RUN dnf install -y nmap-ncat vim && dnf clean all
+RUN dnf install -y nmap-ncat && dnf clean all
 RUN mkdir -p /exports/hostfs/usr/bin && cp /usr/bin/greet.sh /exports/hostfs/usr/bin/hello-world-greet
 

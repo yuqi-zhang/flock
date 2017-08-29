@@ -42,26 +42,31 @@ http://www.projectatomic.io
 The upstream repositories for the atomic cli and system container images are:
 
 https://github.com/projectatomic/atomic
+
 https://github.com/projectatomic/atomic-system-containers
 
 The guideline and creation process can be found in the Fedora wiki:
 
 https://fedoraproject.org/wiki/Container:Guidelines#System_Containers
+
 https://fedoraproject.org/wiki/Container:System_Container
 
 Alternative image build tools can be found at:
 
 buildah: https://github.com/projectatomic/buildah
+
 system-buildah: https://github.com/ashcrow/system-buildah
 
 Some relevant blog posts on the subject:
 
 Giuseppe's Introduction to System Containers: http://www.projectatomic.io/blog/2016/09/intro-to-system-containers/
+
 Steve's Creating and Building System Containers: http://www.projectatomic.io/blog/2017/06/creating-system-containers/
+
 Jason's articles regarding Kubernetes and System Containers:
 http://www.projectatomic.io/blog/2017/05/system-containerized-kube/
+
 http://www.projectatomic.io/blog/2017/05/testing-system-containerized-kubeadm/
+
 http://www.projectatomic.io/blog/2017/08/new-centos-atomic-release-and-kubernetes-system-containers-now-available/
-
-
 
