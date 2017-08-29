@@ -16,7 +16,7 @@ If you want to set up a simple one with vagrant + libvirt:
 
 `vagrant init fedora/26-cloud-base` or `vagrant init fedora/26-atomic-host`
 
-`vagrant up`
+`vagrant up --provider libvirt`
 
 `vagrant ssh`
 
