@@ -5,7 +5,9 @@ Note that this only provides the docker *daemon*, and not the associated cli. Wh
 ### pull/install
 
 `atomic pull --storage ostree registry.fedoraproject.org/f25/docker`
+
 OR
+
 `atomic pull --storage ostree registry.fedoraproject.org/f25/container-engine`
 
 `atomic install --system --system-package=no ${IMAGE}`
