@@ -70,3 +70,5 @@ http://www.projectatomic.io/blog/2017/05/testing-system-containerized-kubeadm/
 
 http://www.projectatomic.io/blog/2017/08/new-centos-atomic-release-and-kubernetes-system-containers-now-available/
 
+https://github.com/jasonbrooks/atomic-site/blob/52be987e328f8d52333e169698004cbf86718e76/source/blog/2017-08-22-running-kubernetes-on-fedora-atomic-26.html.md
+
